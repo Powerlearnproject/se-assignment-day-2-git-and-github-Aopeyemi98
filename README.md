@@ -399,28 +399,42 @@ Keep PRs small and focused to ease review.**
 
 Forking vs. Cloning: Key Differences
 
-Feature	Forking	Cloning
-Purpose	Creates a personal copy of another user’s repo on GitHub	Copies a repository to your local machine
-Ownership	New repository under your GitHub account	No new GitHub repository is created
-Affects Original Repo?	No, until changes are merged via a pull request	No, but you can push changes if you have write access
-Collaboration Use Case	Best for contributing to open-source projects	Best for working within a team with write access
-Push Permissions	You push to your fork, not the original repo	You can push if you have access to the original repo
-When is Forking Useful?
-Contributing to Open Source
+**Forking**
 
-Fork an open-source project, make improvements, and submit a pull request to suggest changes.
-Experimenting Safely
+- Creates a personal copy of another user’s repo on GitHub	
+- New repository under your GitHub account	
+- Affects Original Repo?	No, until changes are merged via a pull request	
+- Best for contributing to open-source projects	
+- You push to your fork, not the original repo	
 
-Modify a project without impacting the original codebase.
-Customizing Public Projects
+**Cloning**
 
-Personalize an open-source tool for your own use while keeping updates from the original repo.
-Backup or Archival Purposes
+- Copies a repository to your local machine
+- No new GitHub repository is created
+- Affects Original Repo? No, but you can push changes if you have write access
+- Best for working within a team with write access
+- You can push if you have access to the original repo
 
-Maintain a copy of a project in case the original is deleted or changed.
-Creating a Separate Version
+**When is Forking Useful?**
 
-If you want to build a different version of a project without merging back into the original.
+1. Contributing to Open Source
+
+    - Fork an open-source project, make improvements, and submit a pull request to suggest changes.
+2. Experimenting Safely
+
+    - Modify a project without impacting the original codebase.
+3. Customizing Public Projects
+
+    - Personalize an open-source tool for your own use while keeping updates from the original repo.
+4. Backup or Archival Purposes
+
+    - Maintain a copy of a project in case the original is deleted or changed.
+5 Creating a Separate Version
+
+    - If you want to build a different version of a project without merging back into the original.
+
+**How to Fork a Repository on GitHub**
+
 - Go to the repository you want to fork on GitHub.
 - Click the "Fork" button in the top-right corner.
 - Choose the account where you want to fork it.
