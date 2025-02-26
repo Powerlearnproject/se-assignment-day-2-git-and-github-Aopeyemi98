@@ -263,8 +263,11 @@ Every repository starts with a default branch (typically main or master). Develo
 **Why Branching is Important for Collaborative Development**
 
 ✅ Parallel Development – Multiple developers can work on different features simultaneously without conflicts.
+
 ✅ Risk Reduction – Developers can experiment and test changes in isolation before merging into the main branch.
+
 ✅ Code Stability – The main branch remains stable, while new features are developed in separate branches.
+
 ✅ Efficient Collaboration – Teams can review and approve changes before they are merged using pull requests on GitHub.
 
 Typical Workflow: Creating, Using, and Merging Branches
