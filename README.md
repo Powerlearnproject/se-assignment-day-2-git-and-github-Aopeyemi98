@@ -192,21 +192,21 @@ A **commit** is a snapshot of your project at a specific point in time. It recor
 1. Set Up Git (If Not Already Installed)
 Ensure Git is installed on your system:
 
-    > git --version
+       > git --version
    
 If not installed, download it from <git-scm.com>.
 
 2. Configure Git (First-Time Setup Only)
 Set up your username and email (these will be linked to your commits):
 
-    > git config --global user.name "Your Name"
-    > git config --global user.email "your-email@example.com"
+       > git config --global user.name "Your Name"
+       > git config --global user.email "your-email@example.com"
 
 3. Clone an Existing Repository (or Create a New One Locally)
 If you already created a GitHub repository, clone it:
 
-    > git clone https://github.com/your-username/repository-name.git
-    > cd repository-name
+       > git clone https://github.com/your-username/repository-name.git
+       > cd repository-name
 
 OR, if starting fresh, initialize a new Git repository:
 
@@ -217,12 +217,12 @@ OR, if starting fresh, initialize a new Git repository:
 4. Add Files to the Repository
 Create or add files, for example:
 
-    > echo "# My First Project" > README.md
+       > echo "# My First Project"
     
 5. Stage the Files for Commit
 Add files to the staging area (this prepares them to be committed):
 
-    > git add .
+       > git add .
     
 The . adds all changed files. Alternatively, you can add specific files:
 
@@ -231,17 +231,17 @@ The . adds all changed files. Alternatively, you can add specific files:
 6. Commit the Changes
 Create a commit with a descriptive message:
 
-    > git commit -m "Initial commit: Added README file"
+       > git commit -m "Initial commit: Added README file"
 
 7. Link to GitHub (If Not Cloned from There)
 If your repository wasn’t cloned from GitHub, link it to a remote repository:
 
-    > git remote add origin https://github.com/your-username/repository-name.git
+       > git remote add origin https://github.com/your-username/repository-name.git
     
 8. Push the Commit to GitHub
 Upload your commit to the remote repository:
 
-    > git push -u origin main
+       > git push -u origin main
 
 **How Commits Help in Tracking Changes & Managing Versions**
 
