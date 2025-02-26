@@ -10,6 +10,7 @@ Version control is a system that tracks changes to files over time, allowing mul
 3. Distributed Version Control (DVCS) – Each developer has a full copy of the project history, making collaboration easier (e.g., Git).
 
 **Why GitHub is Popular for Version Control**
+
 GitHub is a widely used platform that builds on Git, a distributed version control system. It provides:
 
 - Cloud-Based Storage – Stores repositories online for easy access.
@@ -40,8 +41,8 @@ You'll need to make some important decisions:
 - Repository Name – Choose a clear and unique name relevant to your project.
 - Description (Optional) – Provide a brief explanation of the repository’s purpose.
 - Visibility:
--- Public – Anyone can view the code.
--- Private – Only invited collaborators can access it.
+    - Public – Anyone can view the code.
+    - Private – Only invited collaborators can access it.
 - Initialize with a README (Optional) – A README file is useful for providing an overview of your project.
 - Add .gitignore (Optional) – This file specifies which files should be ignored by Git (e.g., node_modules for JavaScript projects).
 - Choose a License (Optional) – Defines how others can use your code. Popular options include MIT, Apache, or GPL licenses.
@@ -52,7 +53,7 @@ After creating the repository, GitHub provides instructions to set it up locally
 
 **If you have an existing project:**
 
-> git init  
+    > git init  
 git remote add origin https://github.com/your-username/repository-name.git  
 git add .  
 git commit -m "Initial commit"  
@@ -60,7 +61,7 @@ git push -u origin main
 
 **If you want to clone the repository:**
 
-> git clone https://github.com/your-username/repository-name.git  
+    > git clone https://github.com/your-username/repository-name.git  
 
 **Key Decisions to Consider**
 
