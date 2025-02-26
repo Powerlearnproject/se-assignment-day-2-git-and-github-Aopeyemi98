@@ -54,14 +54,15 @@ After creating the repository, GitHub provides instructions to set it up locally
 **If you have an existing project:**
 
     > git init  
-git remote add origin https://github.com/your-username/repository-name.git  
-git add .  
-git commit -m "Initial commit"  
-git push -u origin main  
+    > git remote add origin https://github.com/your-username/repository-name.git  
+    > git add .  
+    > git commit -m "Initial commit"  
+    > git push -u origin main  
 
 **If you want to clone the repository:**
 
     > git clone https://github.com/your-username/repository-name.git  
+
 
 **Key Decisions to Consider**
 
